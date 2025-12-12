@@ -10,3 +10,5 @@ pontos vermelhos é de 2.8, respeitando o limite de 0.5. No gráfico da direita
 </p>
 
 ![thermo](https://github.com/rodfloripa/Projeto16/blob/master/dist.png)
+
+Fig1. Resultados
