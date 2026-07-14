@@ -49,6 +49,19 @@ A projeção é obtida utilizando Álgebra Linear por meio da projeção vetoria
 proj = ((u · v) / ||v||²) · v + a
 ```
 
+
+<p align="justify">
+onde:
+</p>
+
+- <b>a</b> representa o ponto inicial do segmento;
+- <b>b</b> representa o ponto final do segmento;
+- <b>p</b> representa o obstáculo;
+- <b>u · v</b> é o produto escalar entre os vetores;
+- <b>||v||²</b> é o quadrado da norma do vetor do segmento.
+
+<p align="justify">
+
 <p align="justify">
 Após calcular essa projeção, o algoritmo mede a distância entre o obstáculo e o ponto projetado. Caso a projeção esteja fora do segmento analisado, essa distância é desconsiderada. Dessa forma é possível determinar se o segmento respeita ou não a distância mínima de segurança.
 </p>
