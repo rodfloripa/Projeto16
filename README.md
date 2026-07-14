@@ -45,15 +45,9 @@ O núcleo matemático do algoritmo está na função <code>point_on_line()</code
 A projeção é obtida utilizando Álgebra Linear por meio da projeção vetorial:
 </p>
 
-<p align="center">
-
-\[
-\mathrm{Proj}_{\mathbf{v}}(\mathbf{u})=
-\frac{\mathbf{u}\cdot\mathbf{v}}
-{\|\mathbf{v}\|^2}\mathbf{v}
-\]
-
-</p>
+```text
+proj = ((u · v) / ||v||²) · v + a
+```
 
 <p align="justify">
 Após calcular essa projeção, o algoritmo mede a distância entre o obstáculo e o ponto projetado. Caso a projeção esteja fora do segmento analisado, essa distância é desconsiderada. Dessa forma é possível determinar se o segmento respeita ou não a distância mínima de segurança.
